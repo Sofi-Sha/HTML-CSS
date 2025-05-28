@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Circles</title>
+  <style>
+    *{
+      margin: 0;
+    }
+.flex{
+  height: 100vh;
+  background-color: rgb(245, 199, 166);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.circle {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  transition: 1s;
+}
+.circle:hover{
+  background-color: dimgray;
+  border-radius: 50%;
+  transition: 2s;
+ }
+  </style>
+</head>
+<body>
+<div class="flex">
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+</div>
+</body>
+</html>
