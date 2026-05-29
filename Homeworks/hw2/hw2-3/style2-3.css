@@ -1,0 +1,38 @@
+*{
+    margin: 10px 5px;
+    padding: 0;
+}
+body{
+    background-color: #3c633c;
+}
+.year{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.month{
+    width: 200px;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    background-color: #b6e3b6;
+    border-radius: 10px;
+    padding: 15px;
+    transition: 1s;
+}
+ .month p{
+     font-size: 13px;
+ }
+ .month h2{
+     font-size: 20px;
+ }
+
+ .month:hover{
+     transform: scale(1.2);
+     transition: 1s;
+ }
