@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+    text-align: center;
+    font-family: "Archivo", sans-serif;
+}
+
+section p{
+    width: 90%;
+}
+
+.section-top{
+    background-color: #e1a616;
+}
+
+.section-bottom{
+    background-color: #375a37;
+    color: white;
+}

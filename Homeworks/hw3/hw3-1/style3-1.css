@@ -1,0 +1,33 @@
+body{
+    margin: 20px 200px;
+}
+header{
+    height: 60vh;
+    background-color: #4d7ed6;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+section{
+    height: 60vh;
+    width: 32%;
+    background-color: #1b4797;
+}
+
+footer{
+    height: 95vh;
+    background-color: #4d7ed6;
+}
+
+header, section, footer{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+}
