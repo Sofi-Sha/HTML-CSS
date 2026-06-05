@@ -1,0 +1,447 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.w-1070{
+    width: 1070px;
+    margin: 0 auto;
+}
+
+/*------------------------header---------------------------*/
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    font-family: "DM Sans", sans-serif;
+}
+
+header nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+header nav a{
+    color: #696871;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: -0.469px;
+}
+
+.header--active-link{
+    color: #19191B;
+    border-bottom: 2px solid #5454D4;
+}
+
+.header--button{
+    width: 211.02px;
+    height: 60px;
+    border-radius: 10px;
+    background: #FF7143;
+    border: none;
+    color: #FFF;
+    font-size: 17px;
+    font-weight: 700;
+    letter-spacing: -0.531px;
+}
+
+/*--------------------------section hero------------------------------------------*/
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 68px;
+}
+
+.hero h1{
+    color: #19191B;
+    font-family: "DM Sans", sans-serif;
+    font-size: 75px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 77px; /* 102.667% */
+    letter-spacing: -2.501px;
+}
+
+.hero p{
+    color: #696871;
+    font-family: "Mulish", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 150% */
+    letter-spacing: -0.625px;
+    margin: 30px 0 50px 0;
+    width: 409.426px;
+}
+
+.hero button{
+    width: 188.211px;
+    height: 60px;
+    border-radius: 10px;
+    background: #5454D4;
+    border: none;
+    color: #FFF;
+    font-family: "Mulish", sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    letter-spacing: -0.531px;
+}
+
+/*-------------------section logos----------------*/
+
+.logos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 212px 0 160px 0;
+}
+
+/*---------------------section index------------------*/
+
+.index{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 160px;
+}
+
+.index h2{
+    color: #19191B;
+    font-family: "DM Sans", sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 57px; /* 114% */
+    letter-spacing: -1.563px;
+}
+
+.index p{
+    color: #696871;
+    font-family: "Mulish", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px; /* 150% */
+    letter-spacing: -0.625px;
+    width: 459px;
+    margin: 30px 0;
+}
+
+.index a{
+    color: #5454D4;
+    font-family: "DM Sans", sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    letter-spacing: -0.531px;
+}
+
+/*-------------------------section metrics--------------*/
+
+.metrics{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 83px;
+}
+
+.metrics h2{
+    color: #19191B;
+    font-family: "DM Sans", sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 57px; /* 114% */
+    letter-spacing: -1.563px;
+}
+
+.metrics p{
+    color: #696871;
+    font-family: "Mulish", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px; /* 150% */
+    letter-spacing: -0.625px;
+    margin: 30px 0;
+    width: 409px;
+}
+
+.metrics a{
+    color: #5454D4;
+    font-family: "DM Sans", sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    letter-spacing: -0.531px;
+}
+
+/*--------------------------section cards-----------------*/
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.cards div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.cards h3{
+    color: #19191B;
+    text-align: center;
+    font-family: "DM Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px; /* 150% */
+    letter-spacing: -0.75px;
+}
+
+.cards p{
+    color: #696871;
+    text-align: center;
+    font-family: "Mulish", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    letter-spacing: -0.5px;
+    width: 307px;
+}
+
+/*-----------------section product------------------------------------------*/
+
+.product{
+    margin-top: 150px;
+}
+
+.product div.plan{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 98px;
+}
+
+.plan h2{
+    color: #19191B;
+    font-family: "DM Sans", sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 70px; /* 116.667% */
+    letter-spacing: -1.876px;
+    width: 523px;
+}
+
+div.buttons{
+    display: flex;
+    align-items: center;
+}
+
+div.buttons button.yearly{
+    border-radius: 10px 0 0 10px;
+    background: #5454D4;
+    color: #FFF;
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    border: none;
+    width: 160px;
+    height: 55px;
+}
+
+div.buttons button.monthly{
+    border-radius: 10px;
+    background: #F7F7FB;
+    color: #19191B;
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    border: none;
+    width: 160px;
+    height: 55px;
+}
+
+.pricing-cards{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 50px 92px;
+    border-radius: 10px;
+    background: #F8F8F8;
+    width: 330px;
+    height: 441px;
+}
+
+.card p.card-type{
+    color: #696871;
+    text-align: center;
+    font-family: "DM Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px; /* 155.556% */
+    letter-spacing: -0.563px;
+}
+
+.card h3{
+    color: #1D293F;
+    text-align: center;
+    font-family: "DM Sans", sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 56px; /* 93.333% */
+    letter-spacing: -1.034px;
+    margin: 22px 0 28px 0;
+}
+
+.card ul li{
+    color: #696871;
+    text-align: center;
+    font-family: "Mulish", sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 50px; /* 294.118% */
+    letter-spacing: -0.531px;
+}
+
+.card h3 span{
+    color: #1D293F;
+    font-family: "DM Sans", sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: -1.034px;
+}
+
+.card .card-btn{
+    width: 285px;
+    height: 60px;
+    border-radius: 10px;
+    border: 1px solid #EAE9F2;
+    background: #FFF;
+    margin-top: auto;
+    color: #5454D4;
+    text-align: center;
+    font-family: "DM Sans", sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    letter-spacing: -0.531px;
+}
+
+.card button.card-btn a{
+    color: #5454D4;
+    text-align: center;
+    font-family: "DM Sans", sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    letter-spacing: -0.531px;
+}
+
+.card:hover{
+    width: 376px;
+    height: 473px;
+    border-radius: 10px;
+    background: #FF7143;
+    box-shadow: 0 32px 34px 0 rgba(255, 112, 59, 0.32);
+    transition: 1s;
+}
+
+.card:hover p.card-type{
+    color: rgba(255, 255, 255, 0.70);
+    text-align: center;
+    font-family: "DM Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px; /* 155.556% */
+    letter-spacing: -0.563px;
+}
+
+.card:hover h3{
+    color: #FFF;
+    text-align: center;
+    font-family: "DM Sans", sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 56px; /* 93.333% */
+    letter-spacing: -1.034px;
+}
+
+.card:hover h3 span{
+    color: #FFF;
+    font-family: "DM Sans", sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: -1.034px;
+}
+
+.card:hover ul li{
+    color: #FFF;
+    text-align: center;
+    font-family: "Mulish", sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 50px; /* 294.118% */
+    letter-spacing: -0.531px;
+}
+
+.card:hover .card-btn{
+    width: 305px;
+    height: 60px;
+    border-radius: 10px;
+    background: #9F3919;
+    border: none;
+}
+
+.card:hover button.card-btn a{
+    color: #FFF;
+    text-align: center;
+    font-family: "DM Sans", sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    letter-spacing: -0.531px;
+}
+
+/*-----------------footer---------------*/
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer p{
+    color: #E4E4E4;
+    font-family: "Roboto", sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    margin: 100px 0 30px 50px;
+}
