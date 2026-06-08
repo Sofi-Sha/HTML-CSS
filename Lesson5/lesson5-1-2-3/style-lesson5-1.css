@@ -1,0 +1,17 @@
+.pink_box{
+    width: 200px;
+    height:200px;
+    background-color: pink;
+    margin: 100px auto 0 auto;
+    animation: lorem 4s linear infinite alternate;
+}
+
+@keyframes lorem {
+    0%{
+        transform: translateY(200px);
+    }
+    100%{
+        transform: translateX(200px);
+        background-color: yellow;
+    }
+}
