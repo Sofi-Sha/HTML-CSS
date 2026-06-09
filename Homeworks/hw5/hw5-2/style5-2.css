@@ -1,0 +1,56 @@
+body{
+    height: 100vh;
+}
+.animation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.animation{
+    margin: 250px auto;
+}
+.man-img{
+    height: 220px;
+    margin-top: 125px;
+    animation: ladder 5s ease-in-out infinite alternate;
+}
+
+.ladder-img{
+    height: 300px;
+}
+
+@keyframes ladder {
+    /*Початкова позиція перед першою сходинкою*/
+    0%{
+        transform: translate(0,0);
+    }
+    /*--------------Сходинка 1----------------*/
+    12%{
+        transform: translate(0,-80px);
+    }
+    24%{
+        transform: translate(80px,-80px);
+    }
+    /*---------------------Сходинка 2---------------*/
+    36%{
+        transform: translate(80px,-160px);
+    }
+    48%{
+        transform: translate(160px,-160px);
+    }
+    /*----------------------Сходинка 3------------------*/
+    60%{
+        transform: translate(160px,-240px);
+    }
+    72%{
+        transform: translate(240px,-240px);
+    }
+    /* -------------Сходинка 4----------------*/
+    85%{
+        transform: translate(240px,-320px);
+    }
+    100%{
+        transform: translate(320px,-320px);
+    }
+}
