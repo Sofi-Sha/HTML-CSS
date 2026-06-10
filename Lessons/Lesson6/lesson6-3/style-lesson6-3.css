@@ -1,0 +1,31 @@
+/*div :first-child {*/
+/*    color: #e1a616;*/
+/*}*/
+
+
+div :nth-child(4) {
+    color: blue;
+}
+
+div :nth-child(odd){
+    color: yellow;
+}
+
+div :first-child {
+    color: #e1a616;
+}
+
+div :nth-child(even) {
+    color: green;
+}
+
+div p:last-of-type {
+    color: crimson;
+}
+
+/*div p::first-line {*/
+/*    color: maroon;*/
+/*    font-size: 22px;*/
+/*    font-weight: bold;*/
+/*}*/
+
