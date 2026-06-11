@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/*----------------------------login-------------------*/
+.form-login{
+    width: 23vw;
+    height: 65vh;
+    background: white;
+    border: 2px solid rgb(188 187 187);
+    border-radius: 2px;
+}
+
+.form-login h2{
+    text-align: center;
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-size: 45px;
+}
+
+.form-login form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+input[type=text], input[type=password]{
+    width: 270px;
+    height: 23px;
+    margin: 3px;
+    padding: 5px;
+}
+
+input[type=submit]{
+    width: 283px;
+    height: 35px;
+    margin-top: 10px;
+    background: rgb(93 174 248);
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+    border-radius: 7px;
+}
+
+/*-------------------------------help-------------------------*/
+
+.form-help {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.form-help p {
+    color: rgba(124, 124, 124);
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+}
+
+.social-login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.social-login img{
+    width: 20px;
+}
+
+.social-login a{
+    text-decoration: none;
+    color: rgba(13, 126, 196);
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+}
+
+.forgot-password{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.forgot-password a{
+    text-decoration: none;
+    color: rgba(13, 126, 196);
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+/*---------------------------------registration---------------*/
+
+.form-registration{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 23vw;
+    height: 8vh;
+    background: white;
+    border: 2px solid rgb(188 187 187);
+    border-radius: 2px;
+    margin-top: 13px;
+    gap: 5px;
+}
+
+.form-registration p{
+    font-family: "Roboto", sans-serif;
+    color: black;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.form-registration a{
+    text-decoration: none;
+    color: rgb(93 174 248);
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+
+}
