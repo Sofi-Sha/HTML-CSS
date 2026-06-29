@@ -1,0 +1,26 @@
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    gap: 30px;
+}
+
+.grid-wrapper{
+    display: grid;
+    height: 100vh;
+    border: 1px solid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.grid-wrapper img{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+}

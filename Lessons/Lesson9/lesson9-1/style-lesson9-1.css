@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+}
+.wrapper{
+    display: grid;
+    height: 100vh;
+    background: #4d7ed6;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+.item{
+    background: #f6eaa1;
+    border: 2px solid saddlebrown;
+}
